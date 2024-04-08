@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import img from "../src/assets/pawan.png";
-import useUser from "./componets/ContexApi";
+import img from '../assets/pawan.png';
+import useUser from "./ContexApi";
 import { useNavigate } from "react-router-dom";
 import { FaCamera } from "react-icons/fa";
 const AccountSetting = () => {
