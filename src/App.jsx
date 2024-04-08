@@ -1,10 +1,10 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Provider } from "./componets/ContexApi";
 import Home from "./componets/Home";
 import Login from "./componets/Login";
 import CreateAcount from "./componets/CreateAcount";
-import AccountSetting from "./AccountSetting";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Provider } from "./componets/ContexApi";
+import AccountSetting from "./componets/AccountSetting";
 
 const App = () => {
   return (
